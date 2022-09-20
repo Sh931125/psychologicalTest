@@ -66,9 +66,8 @@ public class CheckListServiceImpl implements CheckListService{
                 {"양복", "음식", "지갑", "사진", "귀금속과 보석"},
                 {"사과", "메론", "석류", "딸기", "귤"}
         };
-        for(int i=0;i<5;i++){
+        for(int i=0;i<3;i++){
             QueryListEntity queryListEntity = QueryListEntity.builder()
-                    .id(i+1L)
                     .question(queryList[i])
                     .a1(answerList[i][0])
                     .a2(answerList[i][1])
@@ -89,9 +88,8 @@ public class CheckListServiceImpl implements CheckListService{
                 {"자기만족", "생존", "돈벌이", "애정과 우정", "지위"},
                 {"첫경험의 상대", "동경하는 사람", "놀수 있는 사람", "첫사랑의 이미지", "결혼 상대"}
         };
-        for(int i=0;i<5;i++){
+        for(int i=0;i<3;i++){
             ResultEntity resultEntity = ResultEntity.builder()
-                    .id(i+1L)
                     .resultText(resultTextList[i])
                     .r1(resultList[i][0])
                     .r2(resultList[i][1])
