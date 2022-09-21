@@ -46,6 +46,15 @@ h2 {
 
 p {
     font-size: 40px;
+    color: #615745;
+}
+b {
+    color: #b4c957;
+}
+pre {
+    font-size: 30px;
+    font-family: 'Dongle', sans-serif;
+    color: #4b4031;
 }
 
 .share {
