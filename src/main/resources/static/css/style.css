@@ -61,16 +61,16 @@ a {
     width: 50px;
     top: 85%;
     z-index: 10;
-  
+
 }
 
 #main_banner>#left {
- left: 300px;   
+    left: 300px;
 }
 
 #main_banner>#right {
-    left: 1000px   
-   }
+    left: 1000px
+}
 
 /* 메인 베너*/
 
@@ -126,7 +126,7 @@ a {
     width: 350px;
     height: 250px;
     border-radius: 15px;
-    
+
 }
 
 #wrap>#main_banner>#slide>.slide_banner{-webkit-transition: 0.5s;}
